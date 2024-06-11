@@ -106,6 +106,7 @@ main {
 }
 
 .bigFrame:hover {
+  box-shadow: 0px 0px 4px gray;
   transform: translate(0px, 0px) scale(1.03, 1.03);
 }
 
@@ -140,6 +141,12 @@ main {
   justify-content: space-between;
 
   height: 49vh;
+
+  transition: transform 400ms ease-out;
+}
+.galleryFrame article:hover {
+  box-shadow: 0px 0px 4px gray;
+  transform: translate(0px, 0px) scale(1.03, 1.03);
 }
 
 .galleryFrame article a {
@@ -186,7 +193,7 @@ article div {
 
   width: 30%;
 
-  padding: 3% 2% 1% 1%;
+  padding: 4% 2% 1% 1%;
 }
 
 .fo1 p:nth-of-type(2) {
